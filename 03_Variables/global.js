@@ -1,4 +1,4 @@
-var name,
+var myName = "Steven",
     age,
     hairColor;
     
@@ -8,10 +8,10 @@ var name,
 
 
 
-console.log("My name is " + name);
+console.log("My name is " + myName);
 console.log("My age is " + age);
 console.log("My hair color is " + hairColor);
 
-name = "Stevie";
-console.log("My name is " + name);
+myName = "Stevie";
+console.log("My name is " + myName);
 
