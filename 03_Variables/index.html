@@ -1,0 +1,39 @@
+<!doctype HTML>
+<html>
+<head>
+  <title>JS Atomic 03</title>
+  <script src="global.js"></script>
+</head>
+<body>
+  <h1>JS Atomic 03</h1>
+  <h2>	Given what you know so far, what are some reasons to use variables?</h2>
+  <p>Well named variables may help to organize large amounts of data more clearly, but the largest benefit that I can see is assigning information pulled from the view into a variable and modifying it through functions.</p>
+  
+  <h2>What are some advantages to variable names like hairColor instead of hc (for example)? What are some disadvantages?</h2>
+  <p>The primary advantage is having your variable clearly named so it easy to glance over code and be able to understand what is going on.  The only disadvantage I can think of is it's longer than just "hc" (also, maybe you want that variable to hold a different value?)</p>
+  
+  <h2>Given what you know so far, what can you predict about other ways we might use variables?<h2>
+    <p>Other than my answer above, I predict that we'll use variables to store Objects of a custom-created Class (Prototype)</p>
+    
+    <h2>What happens if you assign a value to a variable, do some output with it, then assign a different value to that variable before doing more output. Will the displayed value from the first output update itself once you re-assign that variable to a different value?</h2>
+    <p>Previous output is not reassigned, even though the value of the variable is changed</p>
+    
+    <h2>Why don't you need to use the var keyword every time you use a variable (right now, we only use it when we create the variable)? What does var do?</h2>
+    <p>As I understand it, var sets/declares a variable (var a).  Once it is set, it can be assigned/reassigned at will without another var.</p>
+    
+    <h2>Try removing the keyword var from any line where it might show up in your program. What happens? Does your program still work as intended? Do any error messages show up in the console? If so, what error message?</h2>
+    <p> There is no error message because the var isn't technically needed when using variables on the global scope.  However, not using var when declaring a function variable makes that variable global in scope, so it's always advised to use var</p>
+    
+    <h2>What happens if you try to do output with a variable without first assigning a value to that variable? What happens? Does the program still work as intended? Do error messages show up in the console? If so, what error message?</h2>
+    <p>No error message, the variable simply has a value of undefined, so that is what it returns</p>
+    
+    <h2>What is the difference between a string and an integer? What kinds of information can you use in each? Why might you use one instead of the other?
+</h2>
+<p>string is a non-consequential sequence of characters, while a number(integer or float) has a mathmatical value, however the two appear to be more interchangable than in other languages.  Choosing a type to use depends on what type functions you want access to most likely.</p>
+
+<h2>What questions do you have?</h2>
+<p>In my JS var name is undefined, but the console.log() shows it has the value of "Stevie", which doesn't get assigned until after the console.log().....what? how?  Variable assignment wasn't treated this way when reassigning...only applies to undefined variables?
+ 
+
+</body>
+</html>
