@@ -8,10 +8,10 @@ var name,
 
 
 
-console.log("My name is " + name)
+console.log("My name is " + name);
 console.log("My age is " + age);
 console.log("My hair color is " + hairColor);
 
-name = "Stevie"
-console.log("My name is " + name)
+name = "Stevie";
+console.log("My name is " + name);
 
