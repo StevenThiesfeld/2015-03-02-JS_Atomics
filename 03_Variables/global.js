@@ -1,5 +1,5 @@
 var myName = "Steven",
-    age,
+    age = 23,
     hairColor;
     
 // alert("My name is " + name);
